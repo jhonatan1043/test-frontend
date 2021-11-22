@@ -5,14 +5,54 @@
    </div>
   <div class="contenedor__cards">
     <div class="card">
-       <!-- <img src="../src/assets/001.png"> -->
+      <div class="contenedor__img">
+       <img src="/assets/img/001.png">
+      </div>
+      <h3 class="title__card">Pokemon 1</h3>
     </div>
+    <div class="card">
+      <div class="contenedor__img">
+       <img src="/assets/img/002.png">
+      </div>
+        <h3 class="title__card">Pokemon 2</h3>
+    </div>
+    <div class="card">
+      <div class="contenedor__img">
+       <img src="/assets/img/003.png">
+      </div>
+      <div class="contenedor__img">
+        <h3 class="title__card">Pokemon 3</h3>
+      </div>
+    </div>
+    <div class="card">
+      <div class="contenedor__img">
+       <img src="/assets/img/004.png">
+      </div>
+        <h3 class="title__card">Pokemon 4</h3>
+    </div>
+    <div class="card">
+      <div class="contenedor__img">
+       <img src="/assets/img/003.png">
+      </div>
+        <h3 class="title__card">Pokemon 5</h3>
+    </div>
+    <div class="card">
+      <div class="contenedor__img">
+       <img src="/assets/img/001.png">
+      </div>
+        <h3 class="title__card">Pokemon 6</h3>
+    </div>
+    <!-- <div class="card">
+       <img src="/assets/img/001.png">
+    </div>
+    <div class="card">
+       <img src="/assets/img/001.png">
+    </div> -->
+    <!-- <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
     <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <!-- <div class="card"></div> -->
+    <div class="card"></div> -->
   </div>
   <div class="button" style="text-align: center">
       <button class="btn btn-primary mt-1">Lood More</button>
@@ -45,6 +85,7 @@
   overflow-y: auto;
 }
 .card {
+  text-align: center;
   width: 320px;
   height: 330px;
   flex-shrink: 0;
@@ -54,7 +95,12 @@
   border-radius: 7px;
   transition-property: width height;
   transition-duration: 1s;
+  cursor: pointer;
 }
+
+/* .title__card {
+  text-align: center;
+} */
 
 .card:hover {
   width: 330px;
