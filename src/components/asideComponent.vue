@@ -1,6 +1,12 @@
 <template>
   <div class="sidebar">
-
+    <div class="filters">
+      <h3 class="mx-3 mt-3">Filters</h3>
+      <hr>
+    </div>
+    <div class="type">
+      <h3 class="mx-3 mt-3">Type: </h3>
+    </div>
   </div>
 </template>
 
